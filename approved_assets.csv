@@ -1,0 +1,4 @@
+asset_name,mac_address,owner,status
+Cyber-Laptop,AA:BB:CC:DD:EE:11,Cyber,Approved
+Home-Router,AA:BB:CC:DD:EE:22,Cyber,Approved
+Lab-VM,AA:BB:CC:DD:EE:33,Cyber,Approved
