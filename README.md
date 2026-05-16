@@ -49,40 +49,50 @@ Status: Review Required
 - python-nmap library
 
 Install the Python dependency:
+
 ```
 pip install python-nmap
 ```
 Install Nmap:
+
 ```
 sudo apt install nmap
 ```
 For Windows, download Nmap from the official Nmap website and make sure it is added to your system PATH.
 
-approved_assets.csv Format
+## approved_assets.csv Format
 
-Create a file named approved_assets.csv:
+Create a file named <ins>approved_assets.csv</ins>:
+
 ```
 asset_name,mac_address,owner,status
 Cyber-Laptop,AA:BB:CC:DD:EE:11,Cyber,Approved
 Home-Router,AA:BB:CC:DD:EE:22,Cyber,Approved
 Lab-VM,AA:BB:CC:DD:EE:33,Cyber,Approved
 ```
+
 ## How to Run
+
 ```
 python cyberwatch.py
 ```
+
 When prompted, enter a subnet:
+
 ```
 Enter subnet to scan: 192.168.1.0/24
 ```
-Output
+
+## Output
 
 AssetWatch will display discovered devices and identify whether they are approved or unknown.
 
 It will also save results to:
+
 ```
 scan_results.csv
 ```
+
 ## Disclaimer
 
 This tool is intended for educational use and should only be used on networks you own or have permission to scan.
